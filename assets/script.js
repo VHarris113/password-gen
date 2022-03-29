@@ -9,13 +9,26 @@ const lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "
 
 // Function to get the password options selected by the user
 
-function userSelected (){
-  
+function userSelected () {
+  // error handling for amount of characters in password
+  // confirmation for user choices through confirm method
+  // if statement for the user choosing "no" throughout the selection
+  // object to store all the user choices
+  // return the object
 }
 
 // Need an array to randomize the elements selected from the user options
+function randomSelected(choice) {
+  // use math.floor to select random choice within the choice array
+  // choose random characters in the array
+  // return the random element
+}
+
 
 // Function to generate the password from user input
+function generatePassword() {
+  
+}
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
